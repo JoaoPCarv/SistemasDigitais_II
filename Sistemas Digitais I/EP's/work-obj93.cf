@@ -1,0 +1,31 @@
+v 4
+file . "EP2.vhd" "968c2df0965a374531435ed1ea1e897b1e9ec726" "20200715232314.847":
+  entity log2 at 1( 0) + 0 on 241;
+  architecture main of log2 at 14( 272) + 0 on 242;
+  entity log2uc at 49( 1077) + 0 on 243;
+  architecture unidadecontrole of log2uc at 63( 1343) + 0 on 244;
+  entity detec0 at 90( 2165) + 0 on 245;
+  architecture detectar of detec0 at 100( 2315) + 0 on 246;
+  entity regedes at 107( 2486) + 0 on 247;
+  architecture regarch of regedes at 118( 2697) + 0 on 248;
+  entity log2fd at 177( 4048) + 0 on 251;
+  architecture fluxodados of log2fd at 191( 4353) + 0 on 252;
+file . "EP3.vhd" "fdb20829b12fdc40226df3e7671c8f035b5d211d" "20200729230747.492":
+  entity turbo at 1( 0) + 0 on 298;
+  architecture main of turbo at 14( 273) + 0 on 299;
+  entity turbouc at 60( 1535) + 0 on 300;
+  architecture unidadecontrole of turbouc at 78( 1895) + 0 on 301;
+  entity counter at 108( 3088) + 0 on 302;
+  architecture archcounter of counter at 119( 3300) + 0 on 303;
+  entity push at 136( 3778) + 0 on 304;
+  architecture archpush of push at 146( 3925) + 0 on 305;
+  entity comp4 at 153( 4120) + 0 on 306;
+  architecture archcomp4 of comp4 at 164( 4305) + 0 on 307;
+  entity comp8 at 175( 4608) + 0 on 308;
+  architecture archcomp8 of comp8 at 186( 4793) + 0 on 309;
+  entity registrador at 193( 4956) + 0 on 310;
+  architecture archreg of registrador at 204( 5170) + 0 on 311;
+  entity mux at 223( 5583) + 0 on 312;
+  architecture archmux of mux at 234( 5770) + 0 on 313;
+  entity turbofd at 245( 5983) + 0 on 314;
+  architecture fluxodados of turbofd at 266( 6478) + 0 on 315;
