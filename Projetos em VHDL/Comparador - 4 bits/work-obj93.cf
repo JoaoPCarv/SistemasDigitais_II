@@ -1,0 +1,7 @@
+v 4
+file . "Comparador_4bits_tb.vhd" "c9a46248ba251f0c4ef219f9d823107825aa893e" "20220826132627.427":
+  entity comparador_4bits_tb at 3( 79) + 0 on 21;
+  architecture comparador_4bits_testbench of comparador_4bits_tb at 7( 158) + 0 on 22;
+file . "Comparador_4bits.vhd" "6d9ce06e8f312186ec1a68b8c1ba587f967b5f84" "20220826132206.233":
+  entity comparador_4bits at 3( 79) + 0 on 15;
+  architecture arch_comparador_4bits of comparador_4bits at 11( 254) + 0 on 16;

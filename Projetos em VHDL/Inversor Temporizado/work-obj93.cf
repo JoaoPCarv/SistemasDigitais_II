@@ -1,0 +1,7 @@
+v 4
+file . "inversor_temporizado.vhd" "ab6a7658a2b3326a308c50ca9970242c1dfbeea6" "20220827180515.781":
+  entity inversor_temporizado at 4( 117) + 0 on 35;
+  architecture arch_inversor_temporizado of inversor_temporizado at 11( 242) + 0 on 36;
+file . "inversor_temporizado_tb.vhd" "44d58b11ba686bf521c4e8dc8e2190b5cf78122a" "20220827180517.298":
+  entity inversor_temporizado_tb at 3( 79) + 0 on 37;
+  architecture inversor_temporizado_testbench of inversor_temporizado_tb at 7( 166) + 0 on 38;

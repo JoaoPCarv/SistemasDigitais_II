@@ -1,0 +1,7 @@
+v 4
+file . "Somador_Completo_1bit_tb.vhd" "5975eda8962662707cb6fd51aeadbd3e2e8ebe03" "20220826101313.252":
+  entity somador_completo_1bit_tb at 1( 0) + 0 on 29;
+  architecture somador_completo_1bit_testbench of somador_completo_1bit_tb at 5( 89) + 0 on 30;
+file . "Somador_Completo_1bit.vhd" "2f6229e48d33600d9e7d695bbd61d5cb2e83dfd9" "20220826101305.959":
+  entity somador_completo_1bit at 1( 0) + 0 on 27;
+  architecture arch_somador_1bit of somador_completo_1bit at 15( 269) + 0 on 28;

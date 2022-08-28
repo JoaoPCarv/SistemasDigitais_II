@@ -1,0 +1,25 @@
+v 4
+file . "projeto3_tb.vhd" "12d00cb9e3955b8fed31338b1979aee3dd902ce6" "20220826150217.119":
+  entity projeto3_tb at 1( 0) + 0 on 105;
+  architecture arch of projeto3_tb at 5( 63) + 0 on 106;
+file . "projeto2.vhd" "110714ffbd6f24f1bc235123a4340751965ef65e" "20220826161305.459":
+  entity projeto2 at 84( 2127) + 0 on 239;
+  architecture arch of projeto2 at 94( 2435) + 0 on 240;
+file . "projeto1_tb.vhd" "4ff152020aa19d70a77d56c47e889f053d7340ad" "20220826162140.854":
+  entity projeto1_tb at 3( 79) + 0 on 253;
+  architecture projeto1_testbench of projeto1_tb at 7( 142) + 0 on 254;
+file . "projeto1.vhd" "a6add4cb643bf1e432381d981641e6e786f1bd2d" "20220827162733.846":
+  entity somador_completo_1bit at 7( 155) + 0 on 255;
+  architecture arch_somador_1bit of somador_completo_1bit at 17( 347) + 0 on 256;
+  entity somador_completo_4bits at 28( 635) + 0 on 257;
+  architecture arch_somador_4bits of somador_completo_4bits at 38( 886) + 0 on 258;
+  entity comparador_4bits at 63( 1636) + 0 on 259;
+  architecture arch_comparador_4bits of comparador_4bits at 71( 1811) + 0 on 260;
+  entity purrinha at 89( 2247) + 0 on 261;
+  architecture arch_projeto1 of purrinha at 97( 2477) + 0 on 262;
+file . "projeto2_tb.vhd" "7cb6ffd9c1f9ca0dca4299e1d39ec6ee79f46c3a" "20220826161430.663":
+  entity projeto2_tb at 1( 0) + 0 on 243;
+  architecture arch_tb of projeto2_tb at 5( 63) + 0 on 244;
+file . "projeto3.vhd" "8e31da5df12efbd65bf64acc46125e84d450ff09" "20220826150130.167":
+  entity projeto3 at 1( 0) + 0 on 103;
+  architecture arch of projeto3 at 8( 150) + 0 on 104;
