@@ -1,4 +1,0 @@
-v 4
-file . "SCS_1bit.vhd" "3fa943fcfa06a0455a529c3d439b038c208ccf17" "20220827214200.622":
-  entity somador_completo_sincrono_1bit at 5( 124) + 0 on 11;
-  architecture arch_somador_sincrono_1bit of somador_completo_sincrono_1bit at 16( 354) + 0 on 12;

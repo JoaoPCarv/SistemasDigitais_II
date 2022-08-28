@@ -1,11 +1,14 @@
 -- Autor: João Pedro Lima Affonso de Carvalho, Poli-USP, NUSP: 11260846 --
 
+-- Testbench do Somador Completo de 4 bits --
+
 entity somador_completo_4bits_tb is
        -- Empty --
 end somador_completo_4bits_tb;
 
 architecture somador_completo_4bits_testbench of somador_completo_4bits_tb is
 
+-- Componente a ser testado --
 component somador_completo_4bits is
        port(
 	   add1: in bit_vector(3 downto 0);
@@ -16,10 +19,12 @@ component somador_completo_4bits is
 	   );
 end component;
 
+-- Sinais de Estímulo --
 signal add1_s, add2_s, result_s: bit_vector(3 downto 0);
 signal carry_in_s, carry_out_s: bit;
 
   begin
+  -- Device under Test --
   DUT: somador_completo_4bits port map(add1_s, add2_s, carry_in_s, result_s, carry_out_s);
   
   -- Apenas alguns testes... --
@@ -79,6 +84,16 @@ signal carry_in_s, carry_out_s: bit;
 	wait for 1 ns;
 	assert (result_s = "0001") report "Falha ((1111),(0001),1) - Result" severity error;
 	assert (carry_out_s = '1') report "Falha ((1111),(0001),1) - Carry-out" severity error;
+	
+	wait for 1 ns;
+	
+	-- (10 + 5 + 1 = 16) --
+	add1_s <= "1010";
+	add2_s <= "0101";
+	carry_in_s <= '1';
+	wait for 1 ns;
+	assert (result_s = "0000") report "Falha ((1010),(0101),1) - Result" severity error;
+	assert (carry_out_s = '1') report "Falha ((1010),(0101),1) - Carry-out" severity error;
 	
 	wait for 1 ns;
 	
