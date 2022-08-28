@@ -1,0 +1,19 @@
+v 4
+file . "CSS_4bits_tb.vhd" "d106ad2be8d33b1228b99aaac8ddc8d74752375c" "20220828202859.906":
+  entity css_4bits_tb at 5( 137) + 0 on 111;
+  architecture css_4bits_testbench of css_4bits_tb at 9( 200) + 0 on 112;
+file . "CSS_4bits.vhd" "d3cf9cb51282f4920a426ebca2b1e9668e8a40c1" "20220828194045.259":
+  entity somador_completo_1bit at 6( 142) + 0 on 59;
+  architecture arch_somador_completo_1bit of somador_completo_1bit at 16( 334) + 0 on 60;
+  entity registrador_interno at 28( 648) + 0 on 61;
+  architecture arch_registrador_interno of registrador_interno at 37( 833) + 0 on 62;
+  entity somador_completo_4bits_enable at 54( 1189) + 0 on 63;
+  architecture arch_somador_completo_4bits_enable of somador_completo_4bits_enable at 65( 1475) + 0 on 64;
+  entity registrador_4bits at 108( 2783) + 0 on 65;
+  architecture arch_registrador_4bits of registrador_4bits at 116( 2976) + 0 on 66;
+  entity contador_simples_sincrono_4bits_uc at 134( 3406) + 0 on 67;
+  architecture arch_contador_simples_sincrono_4bits_uc of contador_simples_sincrono_4bits_uc at 144( 3628) + 0 on 68;
+  entity contador_simples_sincrono_4bits_fd at 170( 4507) + 0 on 69;
+  architecture arch_contador_simples_sincrono_4bits_fd of contador_simples_sincrono_4bits_fd at 181( 4766) + 0 on 70;
+  entity css_4bits at 219( 5957) + 0 on 71;
+  architecture arch_css_4bits of css_4bits at 227( 6098) + 0 on 72;

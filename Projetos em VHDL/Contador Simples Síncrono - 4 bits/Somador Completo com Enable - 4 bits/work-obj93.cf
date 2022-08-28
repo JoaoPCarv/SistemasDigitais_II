@@ -1,0 +1,11 @@
+v 4
+file . "SC_4bits_en.vhd" "8db0e3a1fb714204ad3a492fe12356ac9e401c67" "20220828193720.013":
+  entity somador_completo_1bit at 6( 142) + 0 on 137;
+  architecture arch_somador_completo_1bit of somador_completo_1bit at 16( 334) + 0 on 138;
+  entity registrador_interno at 29( 650) + 0 on 139;
+  architecture arch_registrador_interno of registrador_interno at 38( 835) + 0 on 140;
+  entity somador_completo_4bits_enable at 55( 1191) + 0 on 141;
+  architecture arch_somador_completo_4bits_enable of somador_completo_4bits_enable at 66( 1477) + 0 on 142;
+file . "SC_4bits_en_tb.vhd" "32f4b6d6b79346b4a6ae135f231f229e0c76d9a9" "20220828193734.773":
+  entity somador_completo_4bits_enable_tb at 5( 141) + 0 on 145;
+  architecture somador_completo_4bits_enable_testbench of somador_completo_4bits_enable_tb at 9( 243) + 0 on 146;
